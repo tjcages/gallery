@@ -18,6 +18,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "_components/_Text.jsx", "shaders/WaterPass.jsx", "shaders/WaterPass.ksx", "_components/Geo.ksx", "_components/Effects.jsx", "_components/old/Main.jsx"],
   "exclude": ["node_modules"]
 }

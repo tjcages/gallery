@@ -1,0 +1,35 @@
+@import "@/styles/_variables";
+
+.main {
+  display: grid;
+  grid-template-rows: auto;
+  grid-column-gap: $padding-400;
+
+  padding: $padding-600 0;
+
+  strong {
+    text-indent: $padding-600;
+    /* max-width: 30ch; */
+    text-align: justify;
+  }
+
+  span {
+    font-style: italic;
+  }
+
+  @media (min-width: 500px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (min-width: 600px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media (min-width: 800px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  @media (min-width: 1200px) {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  @media (min-width: 1600px) {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}

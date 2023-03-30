@@ -1,0 +1,174 @@
+@import "./_variables";
+
+.main {
+  color: $color-200;
+  background: $color-800;
+
+  main,
+  section,
+  header,
+  footer {
+    color: $color-200;
+  }
+
+  // HERO //
+  h1 {
+    font-size: $font-size-600;
+    font-weight: $font-weight-100;
+
+    line-height: 1.15em;
+    letter-spacing: -0.02em;
+    white-space: pre-line;
+
+    color: $color-800;
+
+    @media only screen and (max-width: 768px) {
+      & {
+        font-size: $font-size-500;
+      }
+    }
+  }
+
+  // PRIMARY //
+  h2 {
+    font-size: $font-size-500;
+    font-weight: $font-weight-100;
+
+    line-height: 1.15em;
+    letter-spacing: -0.01em;
+
+    color: $color-800;
+  }
+
+  // SECONDARY //
+  h3 {
+    font-size: $font-size-400;
+    font-weight: $font-weight-100;
+
+    line-height: 1.15em;
+    letter-spacing: -0.01em;
+
+    color: $color-800;
+  }
+
+  // SUB SECONDARY //
+  h4 {
+    font-size: $font-size-300;
+    font-weight: $font-weight-100;
+
+    line-height: 1.4em;
+    letter-spacing: -0.01em;
+
+    color: $color-500;
+  }
+
+  // BODY HEADER //
+  h5 {
+    font-size: $font-size-200;
+    font-weight: $font-weight-100;
+
+    line-height: 1.4em;
+
+    color: $color-800;
+  }
+
+  // HEADER HYPERLINKS //
+  h5 a {
+    font-size: $font-size-200;
+    font-weight: $font-weight-100;
+
+    line-height: 1.4em;
+
+    color: $color-800;
+  }
+
+  // BODY //
+  p {
+    font-size: $font-size-200;
+    font-weight: $font-weight-100;
+
+    line-height: 1.4em;
+
+    color: $color-500;
+  }
+
+  // HYPERLINKS //
+  p a {
+    text-decoration: underline;
+
+    color: $color-800;
+  }
+
+  // LINKS //
+  h5 a {
+    color: $color-800;
+    text-decoration: underline;
+  }
+
+  // TERTIARY //
+  strong {
+    font-family: $font-secondary;
+    font-size: $font-size-100;
+    font-weight: $font-weight-200;
+
+    line-height: 1.15em;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+
+    color: $color-700;
+  }
+
+  // INPUT //
+  input {
+    font-family: $font-primary;
+    font-size: $font-size-150;
+    font-weight: $font-weight-100;
+
+    line-height: 1.4em;
+
+    color: $color-800;
+
+    &::placeholder {
+      color: $color-400;
+    }
+  }
+
+  // BUTTON //
+  button {
+    font-family: $font-primary;
+    font-weight: 400;
+    font-size: 16px;
+    white-space: nowrap;
+
+    cursor: pointer;
+  }
+
+  // DISCLOSURE //
+  small {
+    font-size: $font-size-100;
+    font-weight: $font-weight-200;
+
+    color: $color-400;
+  }
+
+  // SMALL HYPERLINKS //
+  small a {
+    font-size: $font-size-100;
+    font-weight: $font-weight-200;
+
+    color: $color-400;
+  }
+
+  hr {
+    margin: 0;
+    width: 100%;
+
+    border-color: $color-500;
+  }
+
+  img {
+    width: auto;
+    height: auto;
+  }
+}

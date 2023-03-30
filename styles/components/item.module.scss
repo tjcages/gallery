@@ -1,0 +1,27 @@
+@import '@/styles/_variables';
+
+.main {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: $padding-100;
+
+  img {
+    width: 100%;
+    height: auto;
+
+    user-select: none;
+    pointer-events: none;
+  }
+
+  .info {
+    display: inherit;
+    flex-direction: inherit;
+
+    user-select: none;
+    pointer-events: none;
+  }
+}

@@ -1,0 +1,27 @@
+@import "@/styles/_variables";
+
+.main {
+  position: relative;
+
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-column-gap: $padding-400;
+
+  padding: $padding-200 $padding-200 $padding-600;
+
+  @media (min-width: 500px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (min-width: 600px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media (min-width: 800px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  @media (min-width: 1200px) {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  @media (min-width: 1600px) {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
